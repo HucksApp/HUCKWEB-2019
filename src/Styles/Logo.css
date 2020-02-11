@@ -1,0 +1,167 @@
+
+/* ANIMATIONS*/
+
+@keyframes logo_rotate{
+    0%{
+        transform: rotateZ(25deg);
+    }
+    15%{ transform: rotateZ(36deg);}
+    25%{transform: rotateZ(72deg);}
+    35%{transform: rotateZ(108deg);}
+    45%{ transform: rotateZ(144deg);}
+    55%{ transform: rotateZ(180deg);}
+    65%{ transform: rotateZ(216deg);}
+    75%{ transform: rotateZ(252deg);}
+    85%{ transform: rotateZ(288deg);}
+    95%{ transform: rotateZ(324deg);}
+    100%{ transform: rotateZ(360deg);}
+
+}
+
+@keyframes water_drop{
+    0%{ transform: translateY(-75px);}
+    5%{ transform: translateY(-70px);}
+    10%{ transform: translateY(-60px);}
+    15%{ transform: translateY(-50px);}
+    20%{ transform: translateY(-40px);}
+    25%{ transform: translateY(-30px);}
+    30%{ transform: translateY(-20px);}
+    35%{ transform: translateY(-10px);}
+    40%{ transform: translateY(0px);}
+    45%{ transform: translateY(10px);}
+    50%{ transform: translateY(20px);}
+    55%{ transform: translateY(10px);}
+    60%{ transform: translateY(-20px); }
+    65%{ transform: translateY(-30px);}
+    70%{ transform: translateY(-10px);}
+    75%{ transform: translateY(10px);}
+    80%{ transform: translateY(20px);}
+    85%{ transform: translateY(30px);}
+    90%{ transform: translateY(50px);}
+    95%{       
+        transform: translateY(60px);
+        transform: scale(0.7,0.7);
+    }
+    100%{ 
+        transform: translateY(60px);
+        transform: scale(0.3,0.3);
+
+    }
+
+}
+
+
+
+@keyframes button {  
+
+    0%,100%{
+        transform: scale(1,1);
+        opacity: 0.7;
+       }
+   50%{
+    transform: scale(1.5,1.5);
+    opacity: 0.7;
+   }
+   
+}
+
+
+
+@keyframes hucks{
+    0%{
+        opacity: 0%;
+        transform: scale(1,1);
+       }  
+        
+    50%{
+     color: #5CDB94;
+     opacity: 1%;
+     transform: scale(1.7,1.7);
+    }
+    60%{
+        color: #5CDB94;
+        opacity: 1%;
+        transform: scale(1.2,1.2);
+
+    }
+   
+    100%{
+        color: #5CDB94;
+        transform: scale(1,1);
+    }
+ }
+
+
+
+ @keyframes word{
+    0% {
+        background: linear-gradient(170deg,#5cdb95 30%, #F4EFF6 70%);
+
+      }
+      50% {
+        background: linear-gradient(170deg,#5cdb95 50%, #F4EFF6 50%);
+      }
+      75% {
+        background: linear-gradient(170deg,#5cdb95 70%, #F4EFF6 30%);
+      }
+      100% {
+        background: linear-gradient(170deg,#5cdb95 50%, #F4EFF6 50%);
+      }
+    
+}
+
+
+
+ 
+
+
+.gear1,.gear2,.gear3,.gear4,.hucks,.appn{
+    margin: 30px;
+    height: 70px;
+    width: 70px; 
+    position: absolute; 
+    left: 80px;
+    top:20px;
+   
+}
+
+.gear1{
+  top:40px;  
+  width: 90px;
+ animation: logo_rotate 1.7s linear  infinite;  
+
+}
+
+
+.gear4{
+    left:100px; 
+    top:5px; 
+    width: 100px; 
+    animation: logo_rotate 1.7s linear reverse infinite;
+}
+
+
+.gear3{
+    left:60px;
+    animation: logo_rotate 1.7s linear reverse infinite;
+}
+
+.gear2{
+    animation: logo_rotate 1.7s linear  infinite;  
+    width:90px ; 
+}
+
+
+.hucks{
+    left:180px;
+    color: #ff5e6c
+}
+
+.appn{
+    color: #006DA2;
+    left: 270px;
+}
+
+
+
+

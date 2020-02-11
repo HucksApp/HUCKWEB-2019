@@ -1,0 +1,57 @@
+@keyframes app_back{
+    0% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 90%, #F4EFF6 10%);
+      }
+     15% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 80%, #F4EFF6 20%);
+      }
+      30% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 70%, #F4EFF6 30%);
+      }
+      45% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 60%, #F4EFF6 40%);
+      }
+      60% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 50%, #F4EFF6 50%);
+      }
+      75% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 40%, #F4EFF6 60%);
+      }
+      80% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 30%, #F4EFF6 70%);
+      }
+      90% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 10%, #F4EFF6 80%);
+      }
+      100% {
+        background: linear-gradient(145deg,rgba(244,239,246,0.6 ) 10%, #F4EFF6 90%);
+      }
+    
+}
+
+
+
+
+.App  {
+text-align: center;
+ background-color: #F4EFF6;
+ box-sizing: border-box;
+ animation: app_back 4s ease-in-out infinite;
+ font-weight: "Times New Roman", Times, serif;
+}
+
+
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+/*
+ background:-webkit-linear-gradient(rgba(12,0,50,0.4),rgba(12,0,50,0.8)),url('./images/markus-spiske-iar-afB0QQw-unsplash.jpg');
+ background-size: contain;
+ background-attachment: fixed;*/

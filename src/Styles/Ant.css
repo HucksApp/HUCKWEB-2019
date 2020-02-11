@@ -1,0 +1,60 @@
+@keyframes ant_trans{
+    0%{
+        transform: rotateZ(360);
+        transform: translateY(-2000px);
+    }
+    15%{ transform: translateY(1800px);}
+    25%{transform: translateY(-1600px);}
+    35%{transform: translateY(-1400px);}
+    45%{ transform: translateY(-1200px);}
+    55%{ transform: translateY(-1000px);}
+    65%{ transform: translateY(-800px);}
+    75%{ transform: translateY(-6000px);}
+    85%{ transform: translateY(-2000px);}
+    95%{ transform: translateY(-2000px);}
+    100%{ transform: translateY(-2000px);}
+
+}
+
+
+@keyframes ant_posture {  
+
+    0%,100%{
+        transform: skew(20deg, -20deg);
+       }
+   50%{
+    transform: skew(-20deg, 20deg);
+   }
+   
+}
+
+
+.ant{
+    background-color: skyblue;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px slateblue;
+    position: absolute;
+    animation: ant_posture 1s ease-in-out infinite ;
+}
+
+.tic{
+    background-color: tomato;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.ant:hover .tic{
+    transform: scale(1.5, 1.5);
+    transition: scale 0.4s;
+}
+
+
+.ant:hover{
+    cursor: pointer;
+}

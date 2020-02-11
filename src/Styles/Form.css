@@ -1,0 +1,85 @@
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+    
+}
+
+
+.formb{
+    display: flex;
+    height: 400px;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    flex-direction: column;
+   align-items: center;
+   background:-webkit-linear-gradient(rgba(12,0,50,0.9),rgba(12,0,50,0.3));
+   border-radius: 20px;
+}
+
+div.li{
+    display: flex;
+    height: 60px;
+    width: 60%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin-bottom: 30px;
+}
+
+.lia{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    height: 130px;
+
+}
+ 
+div.li input, .lia textarea{
+    width: 90%;
+    background-color: inherit;
+    border: none;
+    padding-left: 40px;
+    font-size: 1.2em;
+    border-bottom: solid #6870EC;
+    color: #fff;
+}
+
+form label{
+    color: #ff5e6c;
+}
+
+
+form button {
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bolder;
+    background-color: #ff5e6c ;
+    font-size: 1.1em;
+    
+}
+
+.cont_h{
+    color: #000;
+}
+
+
+form button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}

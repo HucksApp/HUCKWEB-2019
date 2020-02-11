@@ -1,0 +1,57 @@
+.static_logo > img{
+    height: 80px;
+    width: 100px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 50px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+.real_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+    
+}
+
+.real_nav > * {
+    border: solid #6870EC;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.real_nav p:hover{
+    cursor: pointer;
+    background-color: #ff5e6c;
+}
+
+
+.static_logo{
+    display: flex;
+    flex: 2;
+    flex-shrink: 1;
+    flex-basis: 1;
+    
+}
+
+.s_app{
+    color:  #006DA2;
+}
+
+.s_huck{
+    color: #ff5e6c;
+}

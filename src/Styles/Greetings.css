@@ -1,0 +1,104 @@
+
+
+
+
+@keyframes button {  
+
+    0%,100%{
+        
+        opacity: 1;
+       }
+   25%{
+    
+    opacity: 0.5;
+   }
+   50%{
+    
+    opacity: 0.2;
+   }
+   75%{
+    
+    opacity: 0.7;
+   }
+   
+}
+
+
+
+.greetings{
+  padding-top: 100px; 
+/*background:-webkit-linear-gradient(rgba(12,0,50,0.4),rgba(12,0,50,0.8)),url('../images/clint-patterson-dYEuFB8KQJk-unsplash.jpg');
+ background-size: contain;
+ margin: 40px auto;
+ height: 100vh;*/
+}
+
+
+.m1{
+    color: #6870EC
+}
+
+.m2{
+    color: #E85A4F;
+}
+
+
+.greetings button{
+    color: #fff;
+    background-color: #E85A4F;
+    font-weight: bolder;
+    font-size: 1.3em;
+    height: 50px;
+    width: 150px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px #6870Ec;
+}
+
+.dip{
+    height: auto;
+    float: right;
+}
+
+
+.bt_ab{
+    animation: button 3s ease-in-out infinite;
+}
+
+
+.see{
+    padding: 10px 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content:flex-start;
+    align-items: center;
+    font-weight: bold;
+    color: #006DA2;
+}
+
+
+.endp{
+    color: #6870EC;
+}
+
+@media screen and  (max-width: 565px ){
+   .see{
+        display:block;
+   } 
+}
+
+
+
+.greetings button:hover{
+cursor: pointer;
+opacity: 0.7;
+}
+
+
+
+
+
+
+
+
