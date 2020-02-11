@@ -24,10 +24,10 @@ const Greetings = () => {
         <div className="greetings" style={styles.bounceInDown}>
             <HucksLogo/>
             <h2 className="m1">WELCOME TO HUCKSAPP</h2>
-            <h3 className="m1">I AM A FREELANCE, FULL STACK DEVELOPER</h3>
+            <h3 className="m1">I AM A FREELANCE, SOFTWARE ENGINEER</h3>
             <h3 className="m2">ALL YOUR NEEDS HAS TO BE SERVED</h3> 
-            <button className="bt_abt"><NavLink to="/hucksapp">ABOUT</NavLink></button>
-            <button className="bt_cont"><NavLink to="/hucksapp">CONTACT</NavLink></button>
+            <button className="bt_abt" title="ABOUT AUTHOR"><NavLink to="/hucksapp">ABOUT</NavLink></button>
+            <button className="bt_cont" title="CONTACT AUTHOR"><NavLink to="/hucksapp">CONTACT</NavLink></button>
             <img src={temp} alt="" className="dip"/>
             <div className="see">
             <p>WHAT ARE YOU DOING TO TAKE ADVANTAGE OF THE GLOBAL INFORMATION TECH. OF THE NEW ERA</p>

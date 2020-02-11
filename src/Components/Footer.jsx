@@ -25,9 +25,9 @@ const Footer = () => {
                 </div>
                 <div className="links">
                     <h4 className="lt">SOCIALS</h4>
-                    <img src={sImgG} title="GITUP PROFILE" alt=""/>
-                    <img src={sImgL} title="LINKEDIN PROFILE" alt=""/>
-                    <img src={sImgT} title="TWITTER PROFILE" alt=""/>
+                    <a href="https://github.com/HucksApp"><img src={sImgG} title="GITUP PROFILE" alt=""/></a >
+                    <a href="https://www.linkedin.com/in/arabprince/"><img src={sImgL}  title="LINKEDIN PROFILE" alt=""/></a >
+                    <a href="https://twitter.com/hucks_jake"><img src={sImgT} title="TWITTER PROFILE" alt=""/></a >
                    
                 </div>
             </div>
